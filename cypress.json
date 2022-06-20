@@ -2,7 +2,7 @@
 
        "env": {
            "baseUrl": "https://workflowpagamentoshomologn.azurewebsites.net/api/",
-           "servico": "ClaroEcommerce",
-           "senha": ".T?si;DsAUP!5wM2"
+           "servico": "login",
+           "senha": ".senha"
        }
    }
