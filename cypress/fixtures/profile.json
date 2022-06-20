@@ -1,0 +1,100 @@
+{
+  "": [
+    {
+      "valor": "1500",
+      "formaPagamento": "1",
+      "NroParcelas": "10",
+      "nomeCliente": "Yango",
+      "installmentPayment": [
+        {
+          "BankNumber": "237",
+          "Installments": [
+            {
+              "Installment": "1",
+              "InstallmentValue": "150000",
+              "totalValueOfInstallments": "150000",
+              "Interest": false,
+              "rateInterest": ""
+            },
+            {
+              "Installment": "2",
+              "InstallmentValue": "150000",
+              "totalValueOfInstallments": "1560000",
+              "Interest": false,
+              "rateInterest": "2%"
+            }
+          ],
+          "Flag": "VISA"
+        },
+        {
+          "BankNumber": "999",
+          "Installments": [
+            {
+              "Installment": "1",
+              "InstallmentValue": "150000",
+              "totalValueOfInstallments": "150000",
+              "Interest": false,
+              "rateInterest": ""
+            },
+            {
+              "Installment": "2",
+              "InstallmentValue": "150000",
+              "totalValueOfInstallments": "1560000",
+              "Interest": true,
+              "rateInterest": "2%"
+            }
+          ],
+          "Flag": ""
+        }
+      ],
+      "faturaCartao": {
+        "identificador": "33395",
+        "nome": "Larissa",
+        "endereco": {
+          "logradouro": "João Pedro Rodovia",
+          "numero": "79776",
+          "complemento": "Martins",
+          "cidade": "Ontario",
+          "uf": "PA",
+          "cep": "21672-715",
+          "pais": "Santa Helena"
+        },
+        "telefone": "(74) 15957-8555}",
+        "email": "Gbio48@yahoo.com"
+      },
+      "antifraude": {
+        "nomeComprador": "Fabrícia",
+        "documento": "92170",
+        "telefoneDDD": "45299",
+        "telefoneNumero": "+55 (20) 6953-2941",
+        "moeda": "Nogueira",
+        "email": "Isadora66@bol.com.br",
+        "enderecoEntrega": {
+          "infoNumero": "3739",
+          "infoComplemento": "Franco",
+          "logradouro": "João Marginal",
+          "numero": "55099",
+          "cidade": "Alice do Norte",
+          "uf": "PI",
+          "cep": "22968-875",
+          "pais": "Taiwan"
+        },
+        "produtos": [
+          {
+            "nome": "Celular Samsung S20",
+            "valor": "1500",
+            "quantidade": "1",
+            "codigo": "001",
+            "sku": "SM-001"
+          }
+        ],
+        "merchantDefinedData": [
+          {
+            "mddFieldId": "1",
+            "mddFieldValue": "1970-10-01"
+          }
+        ]
+      }
+    }
+  ]
+}
